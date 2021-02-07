@@ -1,0 +1,16 @@
+:root {
+  --text-blue: #2196f3;
+  --text-black: #000000;
+  --text-graphit: #212121;
+  --text-grey: #757575;
+  --text-white: #ffffff;
+  --text-grey-opacity: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  border: none;
+}
