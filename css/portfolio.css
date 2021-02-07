@@ -1,0 +1,135 @@
+.header {
+  background-color: var(--text-white);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.header .logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--text-blue);
+}
+
+.header .logo-black {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--text-black);
+}
+
+.site-nav .link {
+  color: var(--text-graphit);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text-blue);
+  cursor: pointer;
+}
+
+.site-nav .link.current {
+  color: var(--text-blue);
+}
+
+.site-info .link {
+  color: var(--text-grey);
+}
+
+.site-info .link:hover,
+.site-info .link:focus {
+  color: var(--text-blue);
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--text-graphit);
+  cursor: pointer;
+}
+
+.btn .secondary {
+  background-color: var(--background-team);
+}
+
+.btn .secondary:hover,
+.btn .secondary:focus {
+  color: var(--text-white);
+  background-color: var(--text-blue);
+}
+
+.project-heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-graphit);
+}
+
+.project-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--text-grey);
+}
+
+.footer {
+  background-color: var(--background-hero);
+  letter-spacing: 0.03em;
+}
+
+.footer .logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--text-blue);
+}
+
+.footer .logo-white {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--text-white);
+}
+
+.address-list .link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-grey-opacity);
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--text-blue);
+}
+
+.address-list .street {
+  color: var(--text-white);
+}

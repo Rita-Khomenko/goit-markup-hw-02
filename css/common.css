@@ -5,6 +5,8 @@
   --text-grey: #757575;
   --text-white: #ffffff;
   --text-grey-opacity: rgba(255, 255, 255, 0.6);
+  --background-hero: #2f303a;
+  --background-team: #f5f4fa;
 }
 
 body {

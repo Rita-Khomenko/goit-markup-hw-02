@@ -1,12 +1,12 @@
 .header {
-  background-color: #ffffff;
+  background-color: var(--text-white);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.header-web {
+.header .logo {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -15,7 +15,7 @@
   color: var(--text-blue);
 }
 
-.header-studio {
+.header .logo-black {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -24,40 +24,44 @@
   color: var(--text-black);
 }
 
-.header-nav a {
+.site-nav .link {
   color: var(--text-graphit);
 }
 
-.header-nav a:hover,
-.header-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--text-blue);
   cursor: pointer;
 }
 
-.header-info a {
+.site-nav .link.current {
+  color: var(--text-blue);
+}
+
+.site-info .link {
   color: var(--text-grey);
 }
 
-.header-info a:hover,
-.header-info a:focus {
+.site-info .link:hover,
+.site-info .link:focus {
   color: var(--text-blue);
   cursor: pointer;
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-hero);
   text-align: center;
   letter-spacing: 0.06em;
 }
 
-.hero-title {
+.hero .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   color: var(--text-white);
 }
 
-.hero-btn {
+.hero .btn.primary {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
@@ -65,6 +69,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--text-white);
+  cursor: pointer;
 }
 
 .content {
@@ -87,7 +92,7 @@
 }
 
 .promo {
-  background-color: #ffffff;
+  background-color: var(--text-white);
   letter-spacing: 0.03em;
 }
 
@@ -100,7 +105,7 @@
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-team);
   letter-spacing: 0.03em;
 }
 
@@ -127,11 +132,11 @@
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-hero);
   letter-spacing: 0.03em;
 }
 
-.footer-web {
+.footer .logo {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -139,7 +144,7 @@
   color: var(--text-blue);
 }
 
-.footer-studio {
+.footer .logo-white {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -147,18 +152,18 @@
   color: var(--text-white);
 }
 
-.address a {
+.address-list .link {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-grey-opacity);
 }
 
-.address a:hover,
-.address a:focus {
+.address-list .link:hover,
+.address-list .link:focus {
   color: var(--text-blue);
 }
 
-.address-link a {
+.address-list .street {
   color: var(--text-white);
 }
