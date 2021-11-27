@@ -1,0 +1,43 @@
+.logo.black {
+  color: var(--text-black);
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  color: var(--text-graphit);
+  cursor: pointer;
+}
+
+.btn.secondary {
+  background-color: var(--background-team);
+}
+
+.btn.secondary:hover,
+.btn.secondary:focus {
+  color: var(--text-white);
+  background-color: var(--text-blue);
+}
+
+.project-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-graphit);
+}
+
+.project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--text-grey);
+}
+
+.logo.white {
+  color: var(--text-white);
+}
